@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("\tWelcome to Letter Puzzle Game");
+
             config.createArray(); //oyunu yaradir
             util.showTable(); //evvelceden bos olan oyunu ilkin olaraq gosterir
             run(); //esas proses ve oyun basladi
